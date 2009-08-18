@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project><files><file>valide.bmp</file><file>COPYING</file><file>src/main.vala</file><file>src/engine/scene.vala</file><file>src/engine/log.vala</file><file>src/engine/settings.vala</file><file>data/settings</file></files><compiler><options><other>-X '-lSDL_image'</other></options><pkg>json-glib-1.0</pkg><pkg>sdl</pkg><pkg>sdl-gfx</pkg><pkg>sdl-image</pkg><pkg>sdl-mixer</pkg><pkg>sdl-ttf</pkg></compiler><license>GPL-3.0</license><name>open-your-park</name><author>Esben Damgaard</author><version>0.1</version></project>
