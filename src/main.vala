@@ -1,8 +1,8 @@
-// Film: "21 gram", "W"
 
 public class Main {
   public static int main (string[] argv) {
     Engine.Scene scene = new Engine.Scene ();
+    scene.initialize();
     
     string filename = "data/settings";
     Json.Parser parser = new Json.Parser ();
