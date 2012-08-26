@@ -31,7 +31,7 @@ namespace Engine {
             {
               SDL.Event event = SDL.Event ();
     
-              while (SDL.Event.poll (event) != 0)
+              while (SDL.Event.poll (out event) != 0)
               {
                 switch (event.type)
                 {
